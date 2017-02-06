@@ -1,0 +1,198 @@
+object ABMcompetencia: TABMcompetencia
+  Left = 326
+  Height = 406
+  Top = 250
+  Width = 469
+  Caption = 'ABM de Competencias'
+  ClientHeight = 406
+  ClientWidth = 469
+  Position = poScreenCenter
+  LCLVersion = '5.7'
+  object DBText1: TDBText
+    Left = 416
+    Height = 13
+    Top = 216
+    Width = 48
+    AutoSize = False
+    DataField = 'id'
+    DataSource = dsCompetencia
+    ParentColor = False
+  end
+  object DBEdit1: TDBEdit
+    Left = 136
+    Height = 27
+    Top = 8
+    Width = 328
+    DataField = 'titulo'
+    DataSource = dsCompetencia
+    CharCase = ecNormal
+    MaxLength = 200
+    TabOrder = 0
+  end
+  object DBEdit2: TDBEdit
+    Left = 88
+    Height = 27
+    Top = 40
+    Width = 376
+    DataField = 'descripcion'
+    DataSource = dsCompetencia
+    CharCase = ecNormal
+    MaxLength = 320
+    TabOrder = 1
+  end
+  object DBEdit3: TDBEdit
+    Left = 80
+    Height = 27
+    Top = 72
+    Width = 80
+    DataField = 'temporada'
+    DataSource = dsCompetencia
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 2
+  end
+  object DBEdit4: TDBEdit
+    Left = 211
+    Height = 27
+    Top = 72
+    Width = 253
+    DataField = 'sede'
+    DataSource = dsCompetencia
+    CharCase = ecNormal
+    MaxLength = 200
+    TabOrder = 3
+  end
+  object DBMemo1: TDBMemo
+    Left = 72
+    Height = 49
+    Top = 104
+    Width = 392
+    DataField = 'cabecera_pagina'
+    DataSource = dsCompetencia
+    TabOrder = 4
+  end
+  object DBMemo2: TDBMemo
+    Left = 72
+    Height = 49
+    Top = 160
+    Width = 392
+    DataField = 'pie_pagina'
+    DataSource = dsCompetencia
+    TabOrder = 5
+  end
+  object DBImage1: TDBImage
+    Cursor = crHandPoint
+    Left = 96
+    Height = 144
+    Top = 216
+    Width = 248
+    BorderSpacing.InnerBorder = 2
+    DataField = 'logo'
+    DataSource = dsCompetencia
+    OnClick = DBImage1Click
+    Proportional = True
+    Stretch = True
+  end
+  object Label1: TLabel
+    Left = 0
+    Height = 17
+    Top = 8
+    Width = 133
+    Caption = 'Titulo Competencia'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 0
+    Height = 17
+    Top = 40
+    Width = 81
+    Caption = 'Descripción'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 0
+    Height = 17
+    Top = 72
+    Width = 77
+    Caption = 'Temporada'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 176
+    Height = 17
+    Top = 72
+    Width = 33
+    Caption = 'Sede'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 0
+    Height = 51
+    Top = 104
+    Width = 63
+    Alignment = taRightJustify
+    Caption = 'Cabecera'#10'de'#10'página'
+    ParentColor = False
+    WordWrap = True
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 51
+    Top = 160
+    Width = 47
+    Alignment = taRightJustify
+    Caption = 'Pié'#10'de'#10'página'
+    ParentColor = False
+    WordWrap = True
+  end
+  object btnAceptar: TBitBtn
+    Left = 365
+    Height = 30
+    Top = 368
+    Width = 99
+    Caption = '&Aceptar'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = btnAceptarClick
+    TabOrder = 6
+  end
+  object btnCancelar: TBitBtn
+    Left = 264
+    Height = 30
+    Top = 368
+    Width = 99
+    Cancel = True
+    Caption = 'Cancelar'
+    Kind = bkCancel
+    ModalResult = 2
+    OnClick = btnCancelarClick
+    TabOrder = 7
+  end
+  object Label7: TLabel
+    Left = 0
+    Height = 68
+    Top = 216
+    Width = 88
+    Alignment = taRightJustify
+    Caption = 'Logo o '#10'imagen '#10'de la '#10'competencia'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 352
+    Height = 17
+    Top = 216
+    Width = 58
+    Caption = 'Registro'
+    ParentColor = False
+  end
+  object dsCompetencia: TDataSource
+    DataSet = mDatos.tblCompetencias
+    left = 272
+    top = 216
+  end
+  object dlgImagen: TOpenPictureDialog
+    left = 224
+    top = 216
+  end
+end

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="13">
+      <Unit0>
+        <Filename Value="InfantilTriaLaPaz.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="24"/>
+        <UsageCount Value="216"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="guiPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPrincipal"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="85"/>
+        <CursorPos X="33" Y="92"/>
+        <UsageCount Value="216"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dmconexion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="mDatos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="dmConexion"/>
+        <TopLine Value="173"/>
+        <CursorPos X="33" Y="187"/>
+        <FoldState Value=" T7DC{nz"/>
+        <UsageCount Value="216"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uacerca_de.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmAcercaDe"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="27" Y="37"/>
+        <UsageCount Value="215"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uabmcompetencia.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMcompetencia"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="54"/>
+        <CursorPos X="15" Y="78"/>
+        <UsageCount Value="212"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="ulistadocompetencias.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="listadoCompetencias"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="43"/>
+        <CursorPos X="25" Y="53"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uabmcategorias.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMcategorias"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="45"/>
+        <CursorPos X="70" Y="48"/>
+        <UsageCount Value="164"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uabmentrenadores.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMentrenadores"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos X="31" Y="70"/>
+        <UsageCount Value="163"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uabmfederaciones.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMfederaciones"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="44"/>
+        <CursorPos X="26" Y="68"/>
+        <UsageCount Value="163"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="uabmtutores.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMtutores"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="68"/>
+        <CursorPos X="29" Y="88"/>
+        <UsageCount Value="162"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uabmfichas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMfichas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="66"/>
+        <CursorPos X="9" Y="74"/>
+        <UsageCount Value="152"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="ulistadofichas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="listadoFichas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="39"/>
+        <CursorPos X="3" Y="80"/>
+        <UsageCount Value="119"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="ulistadocategorias.pas"/>
+        <ComponentName Value="listadoCompetencias1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="90" Y="10"/>
+        <UsageCount Value="6"/>
+      </Unit12>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="102" Column="27" TopLine="93"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ulistadofichas.pas"/>
+        <Caret Line="57" Column="22" TopLine="42"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uabmfichas.pas"/>
+        <Caret Line="97" Column="20" TopLine="69"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uabmfichas.pas"/>
+        <Caret Line="91" TopLine="75"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="100" TopLine="81"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="101" TopLine="81"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="102" TopLine="81"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ulistadofichas.pas"/>
+        <Caret Line="53" Column="31" TopLine="39"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="101" Column="36" TopLine="87"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ulistadofichas.pas"/>
+        <Caret Line="53" Column="3" TopLine="39"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ulistadofichas.pas"/>
+        <Caret Line="108" TopLine="80"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ulistadofichas.pas"/>
+        <Caret Line="90" Column="25" TopLine="80"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="109" Column="6" TopLine="87"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="108" Column="6" TopLine="86"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ulistadofichas.pas"/>
+        <Caret Line="99" Column="33" TopLine="38"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="119" TopLine="106"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="81" Column="13" TopLine="64"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="82" Column="13" TopLine="65"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="117" Column="22" TopLine="111"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="116" Column="22" TopLine="110"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="115" Column="22" TopLine="109"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="116" Column="22" TopLine="110"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="123" Column="22" TopLine="119"/>
+      </Position23>
+      <Position24>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="95" Column="29" TopLine="93"/>
+      </Position24>
+      <Position25>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="94" Column="15" TopLine="82"/>
+      </Position25>
+      <Position26>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="95" Column="15" TopLine="83"/>
+      </Position26>
+      <Position27>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="94" Column="15" TopLine="82"/>
+      </Position27>
+      <Position28>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="95" TopLine="75"/>
+      </Position28>
+      <Position29>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="94" TopLine="74"/>
+      </Position29>
+      <Position30>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="93" TopLine="73"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

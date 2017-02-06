@@ -1,0 +1,84 @@
+BEGIN TRANSACTION;
+CREATE TABLE `tutores` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`nombre1`	TEXT,
+	`apellido1`	TEXT,
+	`telefono1`	TEXT,
+	`mail1`	TEXT,
+	`direccion1`	TEXT,
+	`ciudad1`	TEXT,
+	`provincia1`	TEXT,
+	`pais1`	TEXT,
+	`nombre2`	TEXT,
+	`apellido2`	TEXT,
+	`telefono2`	TEXT,
+	`mail2`	TEXT,
+	`direccion2`	TEXT,
+	`ciudad2`	TEXT,
+	`provincia2`	TEXT,
+	`pais2`	TEXT
+);
+CREATE TABLE `inscriptos` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`competencia_id`	INTEGER,
+	`ficha_p_id`	INTEGER,
+	`tiempo1`	INTEGER,
+	`tiempo2`	INTEGER,
+	`tiempo3`	INTEGER,
+	`posicion`	INTEGER,
+	`tiempo_total`	INTEGER
+);
+CREATE TABLE `ficha_personal` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`nombre`	TEXT,
+	`apellido`	TEXT,
+	`dni`	TEXT,
+	`fecha_nac`	TEXT,
+	`domicilio`	TEXT,
+	`codigo_postal`	TEXT,
+	`localidad`	TEXT,
+	`provincia`	TEXT,
+	`pais`	TEXT,
+	`telefono1`	TEXT,
+	`telefono2`	TEXT,
+	`asociacion`	INTEGER,
+	`tutores` INTEGER,
+	`entrenador` INTEGER
+);
+CREATE TABLE `federaciones` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`nombre`	TEXT,
+	`sigla`	TEXT,
+	`ciudad`	TEXT,
+	`provincia`	TEXT,
+	`pais`	TEXT
+);
+CREATE TABLE `entrenadores` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`nombre`	TEXT,
+	`apellido`	TEXT,
+	`telefono`	TEXT,
+	`mail`	TEXT,
+	`direccion`	TEXT,
+	`ciudad`	TEXT,
+	`provincia`	TEXT,
+	`pais`	TEXT
+);
+CREATE TABLE `competencias` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`titulo`	TEXT,
+	`descripcion`	TEXT,
+	`temporada`	INTEGER,
+	`sede`	TEXT,
+	`cabecera_pagina`	TEXT,
+	`pie_pagina`	TEXT,
+	`logo`	BLOB
+);
+CREATE TABLE `categorias` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`nombre`	TEXT,
+	`edad_inicio`	TEXT,
+	`edad_fin`	TEXT,
+	`fecha_calculo_edad`	TEXT
+);
+COMMIT;

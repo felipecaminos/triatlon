@@ -1,0 +1,121 @@
+object ABMcategorias: TABMcategorias
+  Left = 397
+  Height = 168
+  Top = 144
+  Width = 304
+  Caption = 'ABM de Categorias'
+  ClientHeight = 168
+  ClientWidth = 304
+  Position = poScreenCenter
+  LCLVersion = '5.7'
+  object DBEdit1: TDBEdit
+    Left = 72
+    Height = 27
+    Top = 9
+    Width = 224
+    DataField = 'nombre'
+    DataSource = dsCategorias
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 0
+  end
+  object DBEdit2: TDBEdit
+    Left = 112
+    Height = 27
+    Top = 40
+    Width = 80
+    DataField = 'edad_inicio'
+    DataSource = dsCategorias
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 1
+  end
+  object DBEdit3: TDBEdit
+    Left = 96
+    Height = 27
+    Top = 72
+    Width = 80
+    DataField = 'edad_fin'
+    DataSource = dsCategorias
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 9
+    Width = 56
+    Caption = 'Nombre'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 17
+    Top = 40
+    Width = 95
+    Caption = 'Edad de Inicio'
+    ParentColor = False
+    OnClick = Label2Click
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 17
+    Top = 72
+    Width = 79
+    Caption = 'Edad de Fin'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 17
+    Top = 104
+    Width = 151
+    Caption = 'Fecha Calculo de Edad'
+    ParentColor = False
+  end
+  object btnAceptar: TBitBtn
+    Left = 197
+    Height = 30
+    Top = 136
+    Width = 99
+    Caption = '&Aceptar'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = btnAceptarClick
+    TabOrder = 3
+  end
+  object btnCancel: TBitBtn
+    Left = 93
+    Height = 30
+    Top = 136
+    Width = 99
+    Cancel = True
+    Caption = 'Cancelar'
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 4
+  end
+  object DBDateEdit1: TDBDateEdit
+    Left = 168
+    Height = 27
+    Top = 104
+    Width = 128
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+    OKCaption = 'OK'
+    CancelCaption = 'Cancel'
+    DateOrder = doNone
+    ButtonWidth = 23
+    NumGlyphs = 1
+    MaxLength = 0
+    TabOrder = 5
+    DataField = 'fecha_calculo_edad'
+    DataSource = dsCategorias
+  end
+  object dsCategorias: TDataSource
+    DataSet = mDatos.tblCategorias
+    left = 32
+    top = 128
+  end
+end

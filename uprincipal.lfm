@@ -1,0 +1,127 @@
+object guiPrincipal: TguiPrincipal
+  Left = 446
+  Height = 326
+  Top = 162
+  Width = 486
+  Caption = '..:: TriaLaPaz INFANTIL ::..'
+  ClientHeight = 326
+  ClientWidth = 486
+  Menu = MainMenu1
+  Position = poScreenCenter
+  LCLVersion = '5.7'
+  object BitBtn1: TBitBtn
+    Left = 376
+    Height = 38
+    Top = 264
+    Width = 102
+    Caption = '&Cerrar'
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 0
+  end
+  object BarraEstado: TStatusBar
+    Left = 0
+    Height = 21
+    Top = 305
+    Width = 486
+    Panels = <    
+      item
+        Width = 350
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object MainMenu1: TMainMenu
+    left = 80
+    top = 256
+    object MenuItem1: TMenuItem
+      Caption = 'Competencia'
+      object MenuItem7: TMenuItem
+        Caption = 'Inscripciones'
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Clasificaciones'
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'Modificación Clasificación'
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Listado'
+      object MenuItem10: TMenuItem
+        Caption = 'Por Categorias'
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Por Posiciones'
+      end
+      object MenuItem12: TMenuItem
+        Caption = 'Por Pos. General'
+      end
+      object MenuItem13: TMenuItem
+        Caption = 'Imprimir'
+      end
+      object MenuItem14: TMenuItem
+        Caption = 'Exportar'
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'ABMs'
+      object MenuItem21: TMenuItem
+        Caption = 'Competencias'
+        OnClick = MenuItem21Click
+      end
+      object MenuItem19: TMenuItem
+        Caption = 'Categorias'
+      end
+      object MenuItem18: TMenuItem
+        Caption = 'Federaciones'
+      end
+      object MenuItem17: TMenuItem
+        Caption = 'Entrenadores'
+      end
+      object MenuItem16: TMenuItem
+        Caption = 'Tutores'
+      end
+      object MenuItem15: TMenuItem
+        Caption = 'Fichas Personales'
+        OnClick = MenuItem15Click
+      end
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Opciones'
+      object MenuItem20: TMenuItem
+        Caption = 'Configurar'
+      end
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Salir'
+      object mnSalir: TMenuItem
+        Caption = 'Salir'
+        ShortCut = 27
+        OnClick = mnSalirClick
+      end
+    end
+    object MenuItem6: TMenuItem
+      Caption = 'Ayuda'
+      object mnAcercaDe: TMenuItem
+        Caption = 'Acerca de ...'
+        OnClick = mnAcercaDeClick
+      end
+      object mnAyuda: TMenuItem
+        Caption = 'Ayuda'
+        OnClick = mnAyudaClick
+      end
+    end
+  end
+  object Temporizador: TTimer
+    OnTimer = TemporizadorTimer
+    left = 16
+    top = 256
+  end
+  object DataSource1: TDataSource
+    left = 160
+    top = 256
+  end
+end

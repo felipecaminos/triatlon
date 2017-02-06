@@ -1,0 +1,344 @@
+object ABMtutores: TABMtutores
+  Left = 0
+  Height = 267
+  Top = 85
+  Width = 813
+  Caption = 'ABM de Tutores'
+  ClientHeight = 267
+  ClientWidth = 813
+  Position = poScreenCenter
+  LCLVersion = '5.7'
+  object DBEdit1: TDBEdit
+    Left = 72
+    Height = 27
+    Top = 8
+    Width = 328
+    DataField = 'nombre1'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 0
+  end
+  object DBEdit2: TDBEdit
+    Left = 72
+    Height = 27
+    Top = 40
+    Width = 328
+    DataField = 'apellido1'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 1
+  end
+  object DBEdit4: TDBEdit
+    Left = 48
+    Height = 27
+    Top = 104
+    Width = 352
+    DataField = 'mail1'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 2
+  end
+  object DBEdit5: TDBEdit
+    Left = 80
+    Height = 27
+    Top = 136
+    Width = 320
+    DataField = 'direccion1'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 3
+  end
+  object DBEdit6: TDBEdit
+    Left = 80
+    Height = 27
+    Top = 168
+    Width = 320
+    DataField = 'localidad1'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 4
+  end
+  object DBEdit7: TDBEdit
+    Left = 80
+    Height = 27
+    Top = 200
+    Width = 136
+    DataField = 'provincia1'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 5
+  end
+  object DBEdit8: TDBEdit
+    Left = 256
+    Height = 27
+    Top = 200
+    Width = 144
+    DataField = 'pais1'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 8
+    Width = 56
+    Caption = 'Nombre'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 17
+    Top = 40
+    Width = 57
+    Caption = 'Apellido'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 17
+    Top = 72
+    Width = 60
+    Caption = 'Telefono'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 17
+    Top = 104
+    Width = 29
+    Caption = 'Mail'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 17
+    Top = 136
+    Width = 65
+    Caption = 'Direccion'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 8
+    Height = 17
+    Top = 168
+    Width = 66
+    Caption = 'Localidad'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 10
+    Height = 17
+    Top = 200
+    Width = 64
+    Caption = 'Provincia'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 224
+    Height = 17
+    Top = 200
+    Width = 28
+    Caption = 'Pais'
+    ParentColor = False
+  end
+  object DBEdit3: TDBEdit
+    Left = 72
+    Height = 27
+    Top = 72
+    Width = 328
+    DataField = 'telefono1'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 7
+  end
+  object DBEdit9: TDBEdit
+    Left = 480
+    Height = 27
+    Top = 8
+    Width = 328
+    DataField = 'nombre2'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 8
+  end
+  object DBEdit10: TDBEdit
+    Left = 480
+    Height = 27
+    Top = 40
+    Width = 328
+    DataField = 'apellido2'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 9
+  end
+  object DBEdit11: TDBEdit
+    Left = 456
+    Height = 27
+    Top = 104
+    Width = 352
+    DataField = 'mail2'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 10
+  end
+  object DBEdit12: TDBEdit
+    Left = 488
+    Height = 27
+    Top = 136
+    Width = 320
+    DataField = 'direccion2'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 11
+  end
+  object DBEdit13: TDBEdit
+    Left = 488
+    Height = 27
+    Top = 168
+    Width = 320
+    DataField = 'localidad2'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 12
+  end
+  object DBEdit14: TDBEdit
+    Left = 488
+    Height = 27
+    Top = 200
+    Width = 136
+    DataField = 'provincia2'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 13
+  end
+  object DBEdit15: TDBEdit
+    Left = 672
+    Height = 27
+    Top = 200
+    Width = 136
+    DataField = 'pais2'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 14
+  end
+  object Label9: TLabel
+    Left = 408
+    Height = 17
+    Top = 8
+    Width = 67
+    Caption = 'Nombre 2'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 408
+    Height = 17
+    Top = 40
+    Width = 68
+    Caption = 'Apellido 2'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 408
+    Height = 17
+    Top = 72
+    Width = 71
+    Caption = 'Telefono 2'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 408
+    Height = 17
+    Top = 104
+    Width = 40
+    Caption = 'Mail 2'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 408
+    Height = 17
+    Top = 136
+    Width = 76
+    Caption = 'Direccion 2'
+    ParentColor = False
+  end
+  object Label14: TLabel
+    Left = 408
+    Height = 17
+    Top = 168
+    Width = 77
+    Caption = 'Localidad 2'
+    ParentColor = False
+  end
+  object Label15: TLabel
+    Left = 410
+    Height = 17
+    Top = 200
+    Width = 75
+    Caption = 'Provincia 2'
+    ParentColor = False
+  end
+  object Label16: TLabel
+    Left = 632
+    Height = 17
+    Top = 200
+    Width = 39
+    Caption = 'Pais 2'
+    ParentColor = False
+  end
+  object DBEdit16: TDBEdit
+    Left = 480
+    Height = 27
+    Top = 72
+    Width = 328
+    DataField = 'telefono2'
+    DataSource = dsTutores
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 15
+  end
+  object btnCancelar: TBitBtn
+    Left = 608
+    Height = 30
+    Top = 232
+    Width = 99
+    Cancel = True
+    Caption = 'Cancelar'
+    Kind = bkCancel
+    ModalResult = 2
+    OnClick = btnCancelarClick
+    TabOrder = 16
+  end
+  object btnAceptar: TBitBtn
+    Left = 709
+    Height = 30
+    Top = 232
+    Width = 99
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = btnAceptarClick
+    TabOrder = 17
+  end
+  object dsTutores: TDataSource
+    DataSet = mDatos.tblTutores
+    left = 136
+    top = 176
+  end
+end

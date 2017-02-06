@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="InfantilTriaLaPaz"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <Language Value="040A"/>
+      <CharSet Value="04B0"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="9">
+      <Item1>
+        <PackageName Value="lz_chmhelp"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="pl_zeosdbo"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="pl_excontrols"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="pl_eccontrols"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="pl_cindy"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="pl_bgracontrols"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="FCL"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="lz_sqldb"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="LCL"/>
+      </Item9>
+    </RequiredPackages>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="InfantilTriaLaPaz.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="guiPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPrincipal"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dmconexion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="mDatos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="dmConexion"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uacerca_de.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmAcercaDe"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uabmcompetencia.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMcompetencia"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="ulistadocompetencias.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="listadoCompetencias"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uabmcategorias.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMcategorias"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uabmentrenadores.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMentrenadores"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uabmfederaciones.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMfederaciones"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="uabmtutores.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMtutores"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uabmfichas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ABMfichas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="ulistadofichas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="listadoFichas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit11>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="InfantilTriaLaPaz"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="6">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="EListError"/>
+      </Item4>
+      <Item5>
+        <Name Value="EDatabaseError"/>
+      </Item5>
+      <Item6>
+        <Name Value="ESQLDatabaseError"/>
+      </Item6>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

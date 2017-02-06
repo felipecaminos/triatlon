@@ -1,0 +1,13 @@
+inherited listadoCompetencias1: TlistadoCompetencias1
+  OnClose = nil
+  OnCreate = FormCreate
+  inherited BitBtn2: TBitBtn
+    OnClick = nil
+  end
+  inherited BitBtn3: TBitBtn
+    OnClick = nil
+  end
+  inherited BitBtn4: TBitBtn
+    OnClick = nil
+  end
+end
