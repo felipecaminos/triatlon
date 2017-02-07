@@ -188,8 +188,8 @@ object ABMcompetencia: TABMcompetencia
   end
   object dsCompetencia: TDataSource
     DataSet = mDatos.tblCompetencias
-    left = 272
-    top = 216
+    left = 320
+    top = 232
   end
   object dlgImagen: TOpenPictureDialog
     left = 224

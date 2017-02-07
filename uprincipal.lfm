@@ -40,6 +40,7 @@ object guiPrincipal: TguiPrincipal
       Caption = 'Competencia'
       object MenuItem7: TMenuItem
         Caption = 'Inscripciones'
+        OnClick = MenuItem7Click
       end
       object MenuItem8: TMenuItem
         Caption = 'Clasificaciones'

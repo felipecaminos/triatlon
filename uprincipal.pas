@@ -44,6 +44,7 @@ type
     Temporizador: TTimer;
     procedure MenuItem15Click(Sender: TObject);
     procedure MenuItem21Click(Sender: TObject);
+    procedure MenuItem7Click(Sender: TObject);
     procedure mnAyudaClick(Sender: TObject);
     procedure mnSalirClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -66,7 +67,7 @@ implementation
 { TguiPrincipal }
 //* unidades que contienen los formularios *//
 uses
-   uacerca_de, ulistadocompetencias, ulistadofichas, dmConexion;
+   uacerca_de, ulistadocompetencias, uinscripciones, ulistadofichas, dmConexion;
 
 
 procedure TguiPrincipal.mnSalirClick(Sender: TObject);
@@ -84,6 +85,20 @@ begin
      listadoCompetencias.ShowModal;
    finally
      listadoCompetencias.Free;
+   end;
+   Self.Show;
+end;
+
+procedure TguiPrincipal.MenuItem7Click(Sender: TObject);
+var
+   Inscripciones: TInscripciones;
+begin
+   Inscripciones:= TInscripciones.Create(Application);
+   Self.Hide;
+   try
+     Inscripciones.ShowModal;
+   finally
+     Inscripciones.Free;
    end;
    Self.Show;
 end;
