@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Bienvenido a la página del TriaInfantil
 
 You can use the [editor on GitHub](https://github.com/felipecaminos/triatlon/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
